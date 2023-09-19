@@ -1,9 +1,69 @@
 <!DOCTYPE html>
+<script src="WhyPokemon.js"></script>
 <html>
 <head>
     <title>Eric's Cool Website</title>
+    <link rel="stylesheet" href="color.css">
 </head>
 <body>
-    <h1>Hello! Part2!</h1>
+    <h1>Hello! Part2! Choose your starter!</h1>
+    <p>Click the link below to return to the homepage:</p>
+    <a href="Assignment1.html">Go to homepage</a>
+
+    <button onclick="Why()">Why choose a pokemon?</button>
+
+    <figure>
+        <img src="bulbasaur.jpg" alt="Bulbasaur">
+        <figcaption style="font-size: 40px;">Bulbasaur.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="squirtle.jpg" alt="Squirtle">
+        <figcaption style="font-size: 40px;">Squirtle.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="charmander.jpg" alt="Charmander">
+        <figcaption style="font-size: 40px;">Charmander.</figcaption>
+    </figure>
+
+    <style>
+        /* Style: table Headers */
+        th {
+            font-size: 30px; /* Increase the font size for headers */
+        }
+
+        /* Style: table Rows*/
+        td {
+            font-size: 30px; /* Increase the font size for data cells */
+        }
+    </style>
+
+    <p style="font-size: 30px;">More info on the starter pokemon below.</p>
+
+    <h1>Pokemon Evolutions</h1>
+    <h3>Look at these neat pokemons</h3>
+    <table border="1">
+        <tr>
+            <th>Grass</th>
+            <th>Water</th>
+            <th>Fire</th>
+        </tr>
+        <tr>
+            <td>Bulbasaur</td>
+            <td>Squirtle</td>
+            <td>Charmander</td>
+        </tr>
+        <tr>
+            <td>Ivysaur</td>
+            <td>Wartortle</td>
+            <td>Charmeleon</td>
+        </tr>
+        <tr>
+            <td>Venasaur</td>
+            <td>Blastoise</td>
+            <td>Charizard</td>
+        </tr>
+    </table>
 </body>
 </html>
